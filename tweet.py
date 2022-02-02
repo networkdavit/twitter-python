@@ -6,10 +6,10 @@ import pyfiglet
 welcome = pyfiglet.figlet_format("AUTO TWEET")
 print(welcome)
   
-consumer_key = "zWHkZyvXfMXGMZfhfTCDMFgaa" #please enter your consumer key here
-consumer_secret = "LUAt19qFGJCMpXfRE40yrWSuCfoJnv3BcHRmHkp5P8qoAEM6g4" #please enter your consumer secret here
-access_token = "1392399035223453701-AUvoEjKdusJiFlqIPX3DRDitKWtuvu" #please enter your access token here
-access_token_secret = "faYQoBHEaZSrN4SGfTTvjS2eL3JAuR8WnMrPsJxyH2D2T" #please enter your access token secret here
+consumer_key = "" #please enter your consumer key here
+consumer_secret = "" #please enter your consumer secret here
+access_token = "" #please enter your access token here
+access_token_secret = "" #please enter your access token secret here
   
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
    
